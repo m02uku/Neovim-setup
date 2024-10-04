@@ -5,4 +5,4 @@
 - [WezTerm](https://wezfurlong.org/wezterm/index.html)
 
 ## .wezterm.lua
-Copy `.wezterm.lua` [this](.wezterm.lua) to `your home directory`.
+Copy [.wezterm.lua](.wezterm.lua) to `your home directory`.
