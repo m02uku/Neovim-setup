@@ -13,7 +13,12 @@ config.use_fancy_tab_bar = true
 config.font_size = 10
 config.enable_scroll_bar = true
 
--- If windows, set default profile WSL
+-- 背景透過
+config.window_background_opacity = 0.80
+
+-- Font
+config.font = wezterm.font("Hack Nerd Font Mono", {weight="Regular", stretch="Normal", style="Normal"})
+
 if wezterm.target_triple == "x86_64-pc-windows-msvc" then
     config.default_domain = 'WSL:Ubuntu'
 end
