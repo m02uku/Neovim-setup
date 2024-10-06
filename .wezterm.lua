@@ -17,6 +17,8 @@ config.enable_scroll_bar = true
 config.window_background_opacity = 0.80
 
 -- Font
+-- To see all available fonts:
+    -- `wezterm ls-fonts --list-system`
 config.font = wezterm.font("Hack Nerd Font Mono", {weight="Regular", stretch="Normal", style="Normal"})
 
 if wezterm.target_triple == "x86_64-pc-windows-msvc" then
